@@ -12,3 +12,6 @@ sh ./cs50.sh
 To become root you may use sudo.
 
 Example: sudo sh ./cs50.sh
+
+Credit: 
+Thanks to all the CS50 FB Group Members and CS50 Team.
