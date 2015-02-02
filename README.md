@@ -15,3 +15,9 @@ Example: sudo sh ./cs50.sh
 
 Credit: 
 Thanks to all the CS50 FB Group Members and CS50 Team.
+
+Changes:
+
+Removed CS50 repository.
+
+check50, style50 and render50 installation fixed.
