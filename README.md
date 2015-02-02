@@ -18,6 +18,7 @@ Thanks to all the CS50 FB Group Members and CS50 Team.
 
 Changes:
 
-Removed CS50 repository.
+02.02.2015
 
-check50, style50 and render50 installation fixed.
+1. Removed CS50 repository.
+2. check50, style50 and render50 installation fixed.
