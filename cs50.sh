@@ -77,10 +77,22 @@ dpkg -i library50-php_4-0_i386.deb -y
 rm library50-php_4-0_i386.deb
 echo "========================================================================"
 echo "custom php library has been configured"
-echo "Installing phpmyadmin"
+echo "Installing phpmyadmin and configuring make for CS50 Library file"
 echo "========================================================================"
 apt-get install phpmyadmin -y
 echo "========================================================================"
+echo "
+# My custom alias for CS50 By Harvard University
+make() {
+    echo "cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1";
+    cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1 ;
+}
+
+alias make=make" | cat >> .bashrc
+echo "========================================================================"
+source ./.bashrc
+echo "========================================================================"
+chmod 777 /var/www/html && chmod 777 /var/www/html/index.html
 echo "Installation has been finished"
 echo "CS50 README
 ============================================================================
