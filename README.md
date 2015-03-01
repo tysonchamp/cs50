@@ -29,6 +29,6 @@ Changes:
 
 1. Added configuration into the .bashrc for make to link cs50 library.
 
-28.02.2015
+01.03.2015
 
 1. Fixed minor bugs. Thanks to theSilentStrom for informing.
