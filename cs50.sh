@@ -38,11 +38,11 @@ wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/
 
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/style50_2.1.4-1_i386.deb
 echo "Download complete"
-dpkg -i check50 -y
+dpkg -i check50_1.19-2_i386.deb -y
 echo "check50 done"
-dpkg -i style50 -y
+dpkg -i style50_2.1.4-1_i386.deb -y
 echo "style50 done"
-dpkg -i render50 -y
+dpkg -i render50_1.8-0_i386.deb -y
 echo "render50 done"
 echo "========================================================================"
 echo "check50, style50 and render50 has been installed"
