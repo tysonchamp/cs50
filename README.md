@@ -17,7 +17,6 @@ Example: sudo sh ./cs50.sh
 
 After it finish copy the below codes and paste it in your .bashrc file, its available in your home directory. If the file is not visible then, right click -> show hidden.
 
-# My custom alias for CS50 By Harvard University
 
 make() {
 
