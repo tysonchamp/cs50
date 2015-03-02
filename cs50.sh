@@ -28,7 +28,7 @@ echo "c compiler, default-jdk & jre and filezilla has been installed"
 echo "========================================================================"
 echo "Installing apache2, php5, mysql-server"
 echo "========================================================================"
-apt-get install apache2 php5 php5-curl php5-gmp php5-common -y && apt-get install mysql-server -y
+apt-get install apache2 -y && apt-get install php5 php5-curl php5-gmp php5-common php5-gd -y && apt-get install mysql-server libapache2-mod-auth-mysql php5-mysql -y
 echo "========================================================================"
 echo "apache2, php5, mysql-server has been installed"
 echo "========================================================================"
