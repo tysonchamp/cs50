@@ -22,7 +22,7 @@ echo "CS50 appliance installation is being process"
 echo "========================================================================"
 apt-get update && apt-get upgrade -y
 
-apt-get install clang make filezilla default-jdk default-jre nodjs astyle -y
+apt-get install clang make filezilla default-jdk default-jre nodejs astyle -y
 echo "========================================================================"
 echo "c compiler, default-jdk & jre and filezilla has been installed"
 echo "========================================================================"
@@ -38,11 +38,11 @@ wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/
 
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/style50_2.1.4-1_i386.deb
 echo "Download complete"
-dpkg -i check50_1.19-2_i386.deb -y
+dpkg -i check50_1.19-2_i386.deb
 echo "check50 done"
-dpkg -i style50_2.1.4-1_i386.deb -y
+dpkg -i style50_2.1.4-1_i386.deb
 echo "style50 done"
-dpkg -i render50_1.8-0_i386.deb -y
+dpkg -i render50_1.8-0_i386.deb
 echo "render50 done"
 echo "========================================================================"
 echo "check50, style50 and render50 has been installed"
@@ -63,7 +63,7 @@ echo "Installing custom C/C++ and php libraries"
 echo "========================================================================"
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/library50-c_6-0_i386.deb
 
-dpkg -i library50-c_6-0_i386.deb -y
+dpkg -i library50-c_6-0_i386.deb
 
 rm library50-c_6-0_i386.deb
 echo "========================================================================"
@@ -72,7 +72,7 @@ echo "processing custom php library"
 echo "========================================================================"
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/library50-php_4-0_i386.deb
 
-dpkg -i library50-php_4-0_i386.deb -y
+dpkg -i library50-php_4-0_i386.deb
 
 rm library50-php_4-0_i386.deb
 echo "========================================================================"
@@ -93,7 +93,7 @@ echo "========================================================================"
 source ./.bashrc
 echo "========================================================================"
 chmod 777 /var/www/html && chmod 777 /var/www/html/index.html
-echo "Installation has been finished"
+echo "Installation has been finished."
 echo "CS50 README
 ============================================================================
 
@@ -127,4 +127,6 @@ http://www.webupd8.org/2012/01/install-oracle-java-jdk-7-in-ubuntu-via.html
 or,
 
 download from official website
-http://java.com/en/download/manual.jsp"
+http://java.com/en/download/manual.jsp
+
+ Restart your System!"
