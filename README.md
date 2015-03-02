@@ -15,6 +15,23 @@ To become root you may use sudo.
 
 Example: sudo sh ./cs50.sh
 
+After it finish copy the below codes and paste it in your .bashrc file, its available in your home directory. If the file is not visible then, right click -> show hidden.
+
+# My custom alias for CS50 By Harvard University
+
+make() {
+
+echo "cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1";
+
+cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1 ;
+
+}
+
+alias make=make"
+
+
+After you paste the above codes run source ./.bashrc in terminal.
+
 Credit: 
 Thanks to all the CS50 FB Group Members and CS50 Team.
 
