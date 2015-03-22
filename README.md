@@ -26,7 +26,7 @@ cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1 ;
 
 }
 
-alias make=make"
+alias make=make
 
 
 After you paste the above codes run source ./.bashrc in terminal.
