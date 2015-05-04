@@ -35,11 +35,11 @@ wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/render50_1.8-0_i386.deb
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/style50_2.1.4-1_i386.deb
 echo "Download complete"
-dpkg -i check50_1.19-2_i386.deb
+uname -a | grep arm && dpkg --force-architecture --force-depends -i check50_1.19-2_i386.deb || dpkg -i check50_1.19-2_i386.deb
 echo "check50 done"
-dpkg -i style50_2.1.4-1_i386.deb
+uname -a | grep arm && dpkg --force-architecture --force-depends -i style50_2.1.4-1_i386.deb || dpkg -i style50_2.1.4-1_i386.deb
 echo "style50 done"
-dpkg -i render50_1.8-0_i386.deb
+uname -a | grep arm && dpkg --force-architecture --force-depends -i render50_1.8-0_i386.deb || dpkg -i render50_1.8-0_i386.deb
 echo "render50 done"
 echo "========================================================================"
 echo "check50, style50 and render50 has been installed"
