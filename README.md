@@ -5,7 +5,7 @@ Hii all,
 I just wrote this small BASH script to Setup CS50 Appliance in Host Machine (Ubuntu Family).
 To use this script download the cs50.sh file and execute. It will install all the programs needed for CS50.
 
-Please note: This script is only for 32bit version of Ubuntu, tested on 14.04 & 13.10(server). If you are looking for instruction on 64bit version go here (http://cs50.stackexchange.com/questions/1459/how-to-install-the-tools-for-the-course-on-ubuntu) and check Atul Gangwar's answer. And for the webserver default configuration is unchanged and the default directory is /var/www/html.
+Please note: This script is only for 32bit version of Ubuntu, tested on 14.04, Raspberry Pi 2 Ubuntu Edition & 13.10(server). If you are looking for instruction on 64bit version go here (http://cs50.stackexchange.com/questions/1459/how-to-install-the-tools-for-the-course-on-ubuntu) and check Atul Gangwar's answer. And for the webserver default configuration is unchanged and the default directory is /var/www/html.
 
 To execute follow the below steps:
 
@@ -52,3 +52,7 @@ Changes:
 02.03.2015
 
 1. Updated readme (added instruction for 64bit version of Ubuntu).
+
+03.05.2015
+
+1. Added support for Raspberry Pi 2 Ubuntu Edition by damian1baran
