@@ -19,7 +19,7 @@
 echo "CS50 appliance installation is being process"
 echo "========================================================================"
 apt-get update && apt-get upgrade -y
-apt-get install clang make filezilla default-jdk default-jre nodejs astyle -y
+apt-get install gdb clang make filezilla default-jdk default-jre nodejs astyle -y
 echo "========================================================================"
 echo "c compiler, default-jdk & jre and filezilla has been installed"
 echo "========================================================================"
