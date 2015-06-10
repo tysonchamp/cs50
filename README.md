@@ -11,9 +11,7 @@ To execute follow the below steps:
 
 sh ./cs50.sh
 
-To become root you may use sudo.
-
-Example: sudo sh ./cs50.sh
+To become root you may use "sudo su" in your terminal then enter your password.
 
 After it finish copy the below codes and paste it in your .bashrc file, its available in your home directory. If the file is not visible then, right click -> show hidden.
 
