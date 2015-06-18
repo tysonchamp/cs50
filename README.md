@@ -7,6 +7,8 @@ To use this script download the cs50.sh file and execute. It will install all th
 
 Please note: This script is only for 32bit version of Ubuntu, tested on 14.04, Raspberry Pi 2 Ubuntu Edition & 13.10(server). If you are looking for instruction on 64bit version go here (http://cs50.stackexchange.com/questions/1459/how-to-install-the-tools-for-the-course-on-ubuntu) and check Atul Gangwar's answer. And for the webserver default configuration is unchanged and the default directory is /var/www/html.
 
+for the Stanford Portable Library check out here (repository by Prof. David J. Malan) : https://github.com/cs50/spl 
+
 To execute follow the below steps:
 
 sh ./cs50.sh
