@@ -11,10 +11,6 @@ for the Stanford Portable Library check out here (repository by Prof. David J. M
 
 To execute follow the below steps:
 
-sudo su
-
-<enter your password when asked>
-
 sh ./cs50.sh
 
 To become root you may use "sudo su" in your terminal then enter your password.
