@@ -19,7 +19,7 @@
 echo "CS50 appliance installation is being process"
 echo "========================================================================"
 apt-get update && apt-get upgrade -y
-apt-get install gdb clang make filezilla default-jdk default-jre nodejs astyle -y
+apt-get install gdb clang make filezilla openjdk-7-jdk openjdk-7-jre nodejs astyle -y
 echo "========================================================================"
 echo "c compiler, default-jdk & jre and filezilla has been installed"
 echo "========================================================================"
@@ -67,7 +67,7 @@ dpkg -i library50-php_4-0_i386.deb
 rm library50-php_4-0_i386.deb
 echo "========================================================================"
 echo "custom php library has been configured"
-echo "Installing phpmyadmin and configuring make for CS50 Library file"
+echo "Installing phpmyadmin and configuring SPL Library for CS50 Use"
 echo "========================================================================"
 apt-get install phpmyadmin -y
 #echo "========================================================================"
@@ -77,11 +77,17 @@ apt-get install phpmyadmin -y
 # echo "cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1";
 # cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1 ;
 #}
-#alias make=make" | cat >> .bashrc
+#alias make=make" | cat >> ~/.bashrc
 #echo "========================================================================"
 #source ./.bashrc
 echo "========================================================================"
-chmod 777 /var/www/html && chmod 777 /var/www/html/index.html
+apt-get install -y build-essential git
+git clone git@github.com:tysonchamp/spl-for-ubuntu.git
+cd spl
+make
+make install
+echo "========================================================================"
+chmod -R 777 /var/www/*
 echo "Installation has been finished."
 echo "CS50 README
 ============================================================================
