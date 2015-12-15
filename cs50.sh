@@ -83,7 +83,7 @@ apt-get install phpmyadmin -y
 echo "========================================================================"
 apt-get install -y build-essential git
 git clone git@github.com:tysonchamp/spl-for-ubuntu.git
-cd spl
+cd spl-for-ubuntu
 make
 make install
 echo "========================================================================"
