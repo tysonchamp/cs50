@@ -60,3 +60,7 @@ Changes:
 15.12.2015
 
 1. Included SPL (Stanford Portable Library) for auto installation
+
+08.01.2016
+
+1. Added MIT Scratch program installation
