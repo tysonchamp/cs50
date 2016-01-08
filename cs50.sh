@@ -85,9 +85,9 @@ apt-get install phpmyadmin -y
 #echo "========================================================================"
 #source ./.bashrc
 echo "========================================================================"
-apt-get install -y build-essential git
-git clone git@github.com:tysonchamp/spl-for-ubuntu.git
-cd spl-for-ubuntu
+wget https://github.com/tysonchamp/spl-for-ubuntu/archive/master.zip
+unzip master.zip
+cd spl-for-ubuntu-master
 make
 make install
 echo "========================================================================"
