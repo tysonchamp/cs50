@@ -31,6 +31,10 @@ apt-get install mysql-server -y
 echo "========================================================================"
 echo "apache2, php5, mysql-server has been installed"
 echo "========================================================================"
+apt-get install scratch -y
+echo "========================================================================"
+echo "MIT Scratch has been installed"
+echo "========================================================================"
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/check50_1.19-2_i386.deb
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/render50_1.8-0_i386.deb
 wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/style50_2.1.4-1_i386.deb
@@ -98,14 +102,10 @@ mozilla firefox web browser:
 1) https://addons.mozilla.org/en-US/firefox/addon/1843
 2) https://addons.mozilla.org/en-US/firefox/addon/3829
 3) https://addons.mozilla.org/en-US/firefox/addon/60
-2. Setup Scratch:
+2. Scratch:
 ============================================================================
-If you have added the all the aadons, now install the scratch (optional)
-goto below url for manuals:
-http://scratch.mit.edu/scratch2download/
-or,
-If you want to access the online version then visit below url:
-http://scratch.mit.edu/
+Scratch Is already installed but still If you want to access the online 
+version then visit below url: http://scratch.mit.edu/
 3. Install Oracle Java:
 ============================================================================
 If you wanna install through PPA, goto below url
