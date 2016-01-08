@@ -11,9 +11,17 @@ Stanford Portable Library (repository by Prof. David J. Malan https://github.com
 
 To execute follow the below steps:
 
-sh ./cs50.sh
+First Create a Github Account and generate a ssh key for your account. Follow below links for detailed steps
 
-To become root you may use "sudo su" in your terminal then enter your password.
+https://help.github.com/articles/generating-ssh-keys/#platform-linux
+
+Then execute below commands one by one with root access
+
+  sudo su
+  apt-get install -y build-essential git
+  git clone git@github.com:tysonchamp/cs50.git
+  cd cs50
+  sh cs50.sh
 
 After it finish copy the below codes and paste it in your .bashrc file, its available in your home directory. If the file is not visible then, right click -> show hidden.
 
