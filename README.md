@@ -17,24 +17,30 @@ https://help.github.com/articles/generating-ssh-keys/#platform-linux
 
 Then execute below commands one by one with root access
 
-  sudo su
-  apt-get install -y build-essential git
-  git clone git@github.com:tysonchamp/cs50.git
-  cd cs50
-  sh cs50.sh
+
+      sudo su
+      
+      apt-get install -y build-essential git
+      
+      git clone git@github.com:tysonchamp/cs50.git
+      
+      cd cs50
+      
+      sh cs50.sh
+
 
 After it finish copy the below codes and paste it in your .bashrc file, its available in your home directory. If the file is not visible then, right click -> show hidden.
 
 
-make() {
-
-echo "cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1";
-
-cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1 ;
-
-}
-
-alias make=make
+      make() {
+      
+      echo "cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1";
+      
+      cc -ggdb -std=c99 -Wall -Werror ${1}.c -lcrypt -lcs50 -lm -o $1 ;
+      
+      }
+      
+      alias make=make
 
 
 After you paste the above codes run source ./.bashrc in terminal.
