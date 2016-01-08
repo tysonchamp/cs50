@@ -15,7 +15,7 @@ First Create a Github Account and generate a ssh key for your account. Follow be
 
 https://help.github.com/articles/generating-ssh-keys/#platform-linux
 
-Then execute below commands one by one with root access
+Then execute below commands one by one
 
 
       sudo su
