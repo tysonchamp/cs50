@@ -35,9 +35,9 @@ apt-get install scratch -y
 echo "========================================================================"
 echo "MIT Scratch has been installed"
 echo "========================================================================"
-wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/check50_1.19-2_i386.deb
-wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/render50_1.8-0_i386.deb
-wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/style50_2.1.4-1_i386.deb
+wget http://mirror.cs50.net/appliance50/2015/debs/dists/trusty/main/binary-i386/check50_1.19-2_i386.deb
+wget http://mirror.cs50.net/appliance50/2015/debs/dists/trusty/main/binary-i386/render50_1.8-0_i386.deb
+wget http://mirror.cs50.net/appliance50/2015/debs/dists/trusty/main/binary-i386/style50_2.1.4-1_i386.deb
 echo "Download complete"
 uname -a | grep arm && dpkg --force-architecture --force-depends -i check50_1.19-2_i386.deb || dpkg -i check50_1.19-2_i386.deb
 echo "check50 done"
@@ -59,14 +59,14 @@ echo "custom python and ruby libraries have been configured"
 echo "========================================================================"
 echo "Installing custom C/C++ and php libraries"
 echo "========================================================================"
-wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/library50-c_6-0_i386.deb
+wget http://mirror.cs50.net/appliance50/2015/debs/dists/trusty/main/binary-i386/library50-c_6-0_i386.deb
 dpkg -i library50-c_6-0_i386.deb
 rm library50-c_6-0_i386.deb
 echo "========================================================================"
 echo "custom C/C++ library has been configured"
 echo "processing custom php library"
 echo "========================================================================"
-wget http://mirror.cs50.net/appliance50/2014/debs/dists/trusty/main/binary-i386/library50-php_4-0_i386.deb
+wget http://mirror.cs50.net/appliance50/2015/debs/dists/trusty/main/binary-i386/library50-php_4-0_i386.deb
 dpkg -i library50-php_4-0_i386.deb
 rm library50-php_4-0_i386.deb
 echo "========================================================================"
